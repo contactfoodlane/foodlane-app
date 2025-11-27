@@ -94,6 +94,4 @@ Pour déployer cette application sur Vercel, consultez les guides suivants :
 
 Chaque push sur GitHub déclenchera automatiquement un nouveau déploiement sur Vercel.
 
-# Déployé sur Vercel
-
 # Application déployée
