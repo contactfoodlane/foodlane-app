@@ -49,7 +49,11 @@ export async function fetchRecipesFromSheet(): Promise<Recipe[]> {
       cache: "no-store",
       next: { revalidate: 0 }, // Désactiver complètement le cache
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/csv,text/plain,*/*',
+        'Accept-Language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+        'Referer': 'https://docs.google.com/',
+        'Origin': 'https://docs.google.com',
       },
     });
 
